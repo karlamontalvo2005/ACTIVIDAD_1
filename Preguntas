@@ -1,0 +1,18 @@
+¿Que ventajas observas en la version orientada a objetos?
+La principal ventaja es la modularidad, ya que los datos y el
+comportamiento se agrupan en una sola entidad (Producto).
+Esto facilita la reutilización y la organización del código
+al reflejar objetos del mundo real
+
+2. ¿Que parte del codigo resulto mas clara o facil de mantener?
+La clase Producto y sus métodos, como p.calcularTotal(), resultaron
+más claros. Esto se debe al encapsulamiento, que protege los datos
+y aísla la lógica de un producto en un único lugar.
+
+3. ¿Como podrıas extender el programa para manejar mas productos?
+Se podría extender utilizando estructuras de datos más flexibles como
+un ArrayList. Esto permitiría registrar un número dinámico de productos sin necesidad de reescribir el código.
+
+4. ¿Podrıas agregar una clase Tienda que contenga los productos y calcule el total?
+Sí, se podría agregar una clase Tienda que contenga una lista de objetos Producto.
+Esto mejoraría el diseño al delegar la gestión del inventario y el cálculo del total general a esta nueva clase.
